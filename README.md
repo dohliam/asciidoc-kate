@@ -4,7 +4,7 @@ The XML file in this repository (`asciidoc.xml`) contains rules for highlighting
 
 Once [installed](#installation), opening any file with the `.adoc` extension should automatically highlight AsciiDoc syntax as in the example below:
 
-![AsciiDoc syntax highlighting screenshot](https://cloud.githubusercontent.com/assets/9295750/14149954/8449bf52-f65b-11e5-9f75-6c92dd77efd5.png)
+![AsciiDoc syntax highlighting screenshot](https://cloud.githubusercontent.com/assets/9295750/14151632/afee9468-f663-11e5-859e-800e16cf027f.png)
 
 This highlighter works fine with Kate or [Kwrite](https://www.kde.org/applications/utilities/kwrite/) (which are both based on [KatePart](http://kate-editor.org/about-katepart/)), and should also work with most of the common features of both AsciiDoc and AsciiDoctor.
 
