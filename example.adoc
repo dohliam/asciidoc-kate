@@ -1,0 +1,33 @@
+= AsciiDoc Markup
+
+== Basic formatting
+*Bold text* _Italic text_ *_Bold and italic text_*
+
+`Inline code` ^superscript^ ~subscript~
+
+//  An inline comment
+
+<<Link>> - Cross reference (local / internal link)
+<<Link,A local link with link text>>
+
+https://example.com ftp://example.com mailto:email@example.com
+https://example.com[Example] - External link with link text
+
+Unordered list:
+* Item 1
+* Item 2
+** Sub-item
+
+Ordered list:
+. Item 1
+. Item 2
+.. Sub-item
+
+Table:
+[options="header"]
+|===
+|Col 1|Col 2      |Col 3
+|1    |Item 1     |a
+|2    |Item 2     |b
+|3    |Item 3     |c
+|===
