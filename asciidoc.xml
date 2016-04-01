@@ -30,9 +30,8 @@
 <!ENTITY elheaderregex "^\..*$">
 <!ENTITY docattributeregex "^:.*:(\s|[^:])*$">
 <!ENTITY commentregex "^\/\/\s.*$">
-<!ENTITY strikeoutregex "[~]{2}[^~].*[^~][~]{2}">
 ]>
-<language name="AsciiDoc" version="1.0.0" kateversion="3.7" section="Markup" extensions="*.adoc;*.asciidoc" priority="15" author="dohliam" license="GPL,BSD">
+<language name="AsciiDoc" version="1.0.0" kateversion="3.7" section="Markup" extensions="*.ad;*.adoc;*.asciidoc" priority="15" author="dohliam" license="GPL,BSD">
   <highlighting>
     <contexts>
       <context attribute="Normal Text" lineEndContext="#stay" name="Normal Text">
@@ -99,7 +98,6 @@
         <RegExpr attribute="autolink" String="&autolinkregex;"/>
         <RegExpr attribute="mailtolink" String="&mailtolinkregex;"/>
         <RegExpr attribute="singlelinecomment" String="&commentregex;"/>
-        <RegExpr attribute="strikeout" minimal="true" String="&strikeoutregex;"/>
         <RegExpr attribute="linebreak" minimal="true" String="&linebreakregex;"/>
       </context>
     </contexts>
@@ -112,7 +110,6 @@
       <itemData name="superscript" defStyleNum="dsfloat" italic="true"/>
       <itemData name="subscript" defStyleNum="dsfloat" italic="true"/>
       <itemData name="ruler" defStyleNum="dsNormal" bold="true"/>
-      <itemData name="strikeout" defStyleNum="dsNormal" strikeOut="true"/>
       <itemData name="linebreak" defStyleNum="dsNormal" underline="true" color="#999999"/>
       <itemData name="h1" defStyleNum="dsFunction" bold="true"/>
       <itemData name="h2" defStyleNum="dsFunction" bold="true"/>
