@@ -19,9 +19,11 @@ Steps to install the AsciiDoc syntax highlighting file:
 
 Default syntax highlighting files for Kate are usually stored in the folder `/usr/share/kde4/apps/katepart/syntax/`. However, custom syntax highlighters should probably be saved in the local syntax highlighting folder (`~/.kde/share/apps/katepart/syntax/`) in the user's home directory so that they don't get accidentally overwritten during an update.
 
+NOTE: The above applies to KDE 4. If you are using Plasma 5, the local folder for Kate syntax files has changed to `~/.local/share/katepart5/syntax/`.
+
 ## Usage
 
-Files with the extension `.adoc` or `.asciidoc` will automatically be highlighted using the rules in `asciidoc.xml`. Plain text or other files can be forced to use AsciiDoc highlighting rules by selecting _AsciiDoc_ from the _Highlighting_ menu:
+Files with the extension `.ad`, `.adoc` or `.asciidoc` will automatically be highlighted using the rules in `asciidoc.xml`. Plain text or other files can be forced to use AsciiDoc highlighting rules by selecting _AsciiDoc_ from the _Highlighting_ menu:
 
 * __Tools__ > __Highlighting__ > __Markup__ > __AsciiDoc__
 
