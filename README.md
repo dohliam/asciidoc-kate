@@ -1,5 +1,13 @@
 # asciidoc-kate - An AsciiDoc/AsciiDoctor plugin for Kate editor/KatePart
 
+## Important note
+
+_Recent versions of Kate and Kwrite have added built-in support for AsciiDoc highlighting, so there is no longer any need to install the file in this repo separately. You can now activate AsciiDoc support for any document by selecting AsciiDoc in the syntax highlighting menu, or by opening a file with the `.adoc` extension._
+
+_This repository and the information below will be left up for archival purposes and in case they are of use to anyone as a reference._
+
+---
+
 The XML file in this repository (`asciidoc.xml`) contains rules for highlighting the syntax of [AsciiDoc](http://asciidoc.org/) and [AsciiDoctor](http://asciidoctor.org/) markup files in [Kate](http://kate-editor.org/), the default text editor for [KDE](https://www.kde.org/).
 
 Once [installed](#installation), opening any file with the `.adoc` extension should automatically highlight AsciiDoc syntax as in the example below:
